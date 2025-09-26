@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwriting AI Recognition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">Handwriting AI Recognition using CNN</div>
+        <div class="description">
+            Draw a character clearly in the canvas and watch the AI recognize it instantly.
+            Supports numbers (0-9) and letters (A-Z, a-z).
+        </div>
+    </div>
+    
+    <div class="main-window">
+        <div class="canvas-section">
+            <canvas id="canvas" width="290" height="290"></canvas>
+            <button id="clear-button" class="clear-button">Clear</button>
+        </div>
+        
+        <div class="results-section">
+            <div class="prediction-display">
+                <div class="result-char" id="result">
+                    <span class="empty-state">?</span>
+                </div>
+            </div>
+            
+            <div class="predictions-list">
+                <div id="predictions-container">
+                    <div class="prediction-item">
+                        <span class="prediction-char">-</span>
+                        <span class="prediction-confidence">0%</span>
+                    </div>
+                    <div class="prediction-item">
+                        <span class="prediction-char">-</span>
+                        <span class="prediction-confidence">0%</span>
+                    </div>
+                    <div class="prediction-item">
+                        <span class="prediction-char">-</span>
+                        <span class="prediction-confidence">0%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="status-bar" id="status">Ready to recognize</div>
+        </div>
+    </div>
+    
+    <div class="brush-control">
+        <div class="brush-label">Brush Size:</div>
+        <input type="range" id="brush-slider" class="brush-slider" min="8" max="25" value="16">
+    </div>
+
+    <footer>
+        <b>Author: Bryan Dhaniel. <a href="https://github.com/Monacrh" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/bryan-dhaniel-5b8953258/" target="_blank">LinkedIn</a></b>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
