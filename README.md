@@ -48,6 +48,16 @@ The entire project is implemented using **JavaScript, HTML, and CSS** — withou
 
 ## 📸 Demo
 
+## 🌍 Live Demo
+You can try the handwriting recognition app here:  
+👉 [Handwriting Recognition Demo](https://handwriting-recognition-with-emnist.vercel.app/)
+
+## 🙌 Credits
+- Developed by [Bryan Dhaniel](https://github.com/Monacrh)
+- Dataset by [Chris Crawford](https://www.kaggle.com/datasets/crawford/emnist/data)
+- Model trained by [yeogaa](https://www.kaggle.com/code/yeogaa/handwritten-character-recognition-using-keras)
+- Inspired by [Michael Bil](https://github.com/michael-bill/neural-network-handwritten-numbers)
+
 ## 📜 License
 
 This project is licensed under the MIT License.
