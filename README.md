@@ -38,7 +38,7 @@ The entire project is implemented using **JavaScript, HTML, and CSS** — withou
 ## 💻 Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/handwriting-recognition-js.git
+   git clone https://github.com/Monacrh/Handwriting-Recognition-with-EMNIST-and-CNN.git
    cd handwriting-recognition-js
    ```
 2. Open index.html in your browser.
